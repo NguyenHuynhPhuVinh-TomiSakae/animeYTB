@@ -1,8 +1,8 @@
 name: Create Anime Video
 
 on:
-  schedule:
-    - cron: '0 0,4,8,12,16,20 * * *'  # Chạy 6 lần một ngày: 00:00, 04:00, 08:00, 12:00, 16:00, và 20:00 UTC
+  #schedule:
+  #  - cron: '0 0,4,8,12,16,20 * * *'  # Chạy 6 lần một ngày: 00:00, 04:00, 08:00, 12:00, 16:00, và 20:00 UTC
   workflow_dispatch:      # Cho phép chạy thủ công
 
 jobs:
